@@ -2,6 +2,8 @@ dist
 node_modules
 coverage
 !.vitepress/
+packages/.vitepress
+packages/**.md
 !.changeset/
 pnpm-lock.yaml
 playgrounds/
