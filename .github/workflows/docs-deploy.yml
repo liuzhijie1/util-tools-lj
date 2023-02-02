@@ -33,7 +33,7 @@ jobs:
 
       # 运行构建脚本
       - name: Build vitepress site
-        run: pnpm docs:build
+        run: pnpm vdocs:build
         env:
           DOC_ENV: preview
           NODE_OPTIONS: --max-old-space-size=4096
