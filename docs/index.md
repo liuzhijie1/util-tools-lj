@@ -2,11 +2,11 @@
 layout: home
 sidebar: false
 
-title: vmejs
+title: util-tools-lj
 titleTemplate: 一个令人疯狂的开源前端工具库
 
 hero:
-  name: vmejs
+  name: util-tools-lj
   text: 一个令人疯狂的开源前端工具库
   tagline: 🎉 🎉 🎉 一个令人疯狂的开源前端工具库，A crazy tool library, So may you v me 50？
   actions:
