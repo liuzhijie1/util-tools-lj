@@ -8,7 +8,7 @@
     ## Usage
 
     ``` ts
-      import { getDevice } from "@vmejs/core"
+      import { getDevice } from "@util-tools-lj/core"
 
       const browser = getDevice()
 
@@ -22,7 +22,7 @@
     -   浏览器（客户端）中使用 [ua可选]
 
         ```
-          import { getDevice } from "@vmejs/core"
+          import { getDevice } from "@util-tools-lj/core"
           // 未带参数
           const browser = getDevice()
 
@@ -34,7 +34,7 @@
 
         ```
           import http from 'http'
-          import { getDevice } from "@vmejs/core"
+          import { getDevice } from "@util-tools-lj/core"
 
           http.createServer(function (req, res) {
               // get user-agent header

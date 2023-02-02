@@ -3,14 +3,14 @@
     ## 安装
 
     ```bash
-    npm i @vmejs/core
+    npm i @util-tools-lj/core
     ```
 
 
     ## 简单使用
 
     ``` ts
-      import { getDevice } from "@vmejs/core"
+      import { getDevice } from "@util-tools-lj/core"
 
       const browser = getDevice()
 
