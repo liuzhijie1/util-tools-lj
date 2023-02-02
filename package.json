@@ -15,7 +15,8 @@
     "dev": "tsup --watch",
     "build": "tsup",
     "vdocs:dev": "pnpm -C docs dev",
-    "vdocs:build": "pnpm run -C docs build"
+    "vdocs:build": "pnpm run -C docs build",
+    "release": "changeset publish"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx,json}": [
@@ -27,6 +28,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@types/node": "^18.11.18",
